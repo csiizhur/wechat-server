@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for 命名空间错误 -->
+<mapper namespace="com.lanen.wechat.mapping.CompanyMapper">
+	<!-- 目的：为DAO接口方法提供sql语句配置 -->
+	<resultMap type="com.lanen.wechat.pojo.Company" id="companyMap">
+		<id column="id" property="id"/>
+		<result column="company_name" property="companyName"/>
+		<result column="company_info" property="companyInfo"/>
+		<result column="create_time" property="createTime"/>
+		<result column="company_pic" property="companyPic"/>
+		<result column="create_user" property="createUser"/>
+		<result column="is_del" property="isDel"/>
+		
+	</resultMap>
+
+	<select id="getCompanyInfo" resultMap="companyMap">
+		select * from weixin_company
+	</select>
+</mapper>

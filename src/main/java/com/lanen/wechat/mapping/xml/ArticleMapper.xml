@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for 命名空间错误 -->
+<mapper namespace="com.lanen.wechat.mapping.ArticleMapper">
+	<!-- 目的：为DAO接口方法提供sql语句配置 -->
+	<resultMap type="com.lanen.wechat.pojo.Article" id="articleMap">
+		<id column="id" property="id"/>
+		<result column="tag" property="tag"/>
+		<result column="author" property="author"/>
+		<result column="create_time" property="createTime"/>
+		<result column="title" property="title"/>
+		<result column="content" property="content"/>
+		<result column="pic" property="pic"/>
+		<result column="is_show" property="isShow"/>
+		
+	</resultMap>
+
+	<select id="getHotArticles" resultMap="articleMap">
+		select * from weixin_hot_article
+	</select>
+</mapper>

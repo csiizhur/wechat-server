@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lanen.wechat.mapping.MemberMapper">
+	<!-- 目的：为DAO接口方法提供sql语句配置 -->
+	<resultMap type="com.lanen.wechat.pojo.Member" id="memberMap">
+		<id column="id" property="id"/>
+		<result column="open_id" property="openId"/>
+		<result column="user_name" property="userName"/>
+		<result column="sex" property="sex"/>
+		<result column="birthday" property="birthday"/>
+		<result column="mobile" property="mobile"/>
+		<result column="address" property="address"/>
+	</resultMap>
+
+	<select id="queryMember" resultMap="memberMap">
+		select * from weixin_openuser_member where open_id=#{openId}
+	</select>
+	
+	<insert id="insertMember" useGeneratedKeys="true" keyProperty="id">
+		insert into weixin_openuser_member(open_id,user_name,sex,birthday,mobile,address)
+		values(
+		#{openId},
+		#{userName},
+		#{sex},
+		#{birthday},
+		#{mobile},
+		#{address},
+		)
+	</insert>
+
+	<update id="updateMemberInfo">
+		update weixin_openuser_member set
+		user_name=#{userName},
+		sex=#{sex},
+		birthday=#{birthday},
+		mobile=#{mobile},
+		address=#{address}
+		
+		where open_id=#{openId}
+	</update>
+</mapper>

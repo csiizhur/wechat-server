@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lanen.wechat.mapping.HonorMapper">
+	<!-- 目的：为DAO接口方法提供sql语句配置 -->
+	<resultMap type="com.lanen.wechat.pojo.Honor" id="honorMap">
+		<id column="id" property="id"/>
+		<result column="title" property="title"/>
+		<result column="content" property="content"/>
+		<result column="createtime" property="createTime"/>
+		<result column="pic" property="pic"/>
+		<result column="createuser" property="createUser"/>
+		<result column="is_del" property="isDel"/>
+		
+	</resultMap>
+
+	<select id="listHonor" resultMap="honorMap">
+		select * from weixin_honor
+	</select>
+	
+</mapper>

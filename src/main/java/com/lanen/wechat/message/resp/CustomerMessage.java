@@ -3,7 +3,7 @@ package com.lanen.wechat.message.resp;
 /**
  * ClassName: CustomerMessage
  * @Description: 客服消息接口
- * @author dapengniao
+ * @author zhur
  * @date 2016年3月14日 下午6:28:08
  */
 public class CustomerMessage {

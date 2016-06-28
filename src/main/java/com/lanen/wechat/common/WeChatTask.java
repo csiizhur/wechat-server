@@ -11,17 +11,18 @@ import com.lanen.web.util.GlobalConstants;
 import com.lanen.wechat.util.HttpUtils;
 
 /**
- * ClassName: WeChatTask
- * @Description: 微信两小时定时任务体
- * @author dapengniao
- * @date 2016年3月10日 下午1:42:29
+ * 
+ * @Description 微信两小时定时任务体
+ * @ClassName WeChatTask.java
+ * @author Administrator-zhur
+ * @date 2016年6月28日下午5:02:07
  */
 public class WeChatTask {
 	/**
-	 * @Description: 任务执行体
-	 * @param @throws Exception
-	 * @author dapengniao
-	 * @date 2016年3月10日 下午2:04:37
+	 * 执行定时任务
+	 * @throws Exception
+	 * @author Administrator-zhur
+	 * @date 2016年6月28日 下午5:02:32
 	 */
 	public void getToken_getTicket() throws Exception {
 		Map<String, String> params = new HashMap<String, String>();

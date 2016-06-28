@@ -29,7 +29,7 @@ import com.thoughtworks.xstream.io.xml.XppDriver;
  * ClassName: MessageUtil
  * 
  * @Description: 消息工具类
- * @author dapengniao
+ * @author zhur
  * @date 2016年3月7日 上午10:05:04
  */
 public class MessageUtil {
@@ -134,7 +134,7 @@ public class MessageUtil {
 	 * @param @param request
 	 * @param @return
 	 * @param @throws Exception
-	 * @author dapengniao
+	 * @author zhur
 	 * @date 2016年3月7日 上午10:04:02
 	 */
 	@SuppressWarnings("unchecked")
@@ -167,7 +167,7 @@ public class MessageUtil {
 	 * @Description: 文本消息对象转换成xml
 	 * @param @param textMessage
 	 * @param @return
-	 * @author dapengniao
+	 * @author zhur
 	 * @date 2016年3月8日 下午4:13:22
 	 */
 	public static String textMessageToXml(TextMessage textMessage) {
@@ -179,7 +179,7 @@ public class MessageUtil {
 	 * @Description: 图文消息对象转换成xml
 	 * @param @param newsMessage
 	 * @param @return
-	 * @author dapengniao
+	 * @author zhur
 	 * @date 2016年3月8日 下午4:14:09
 	 */
 	public static String newsMessageToXml(NewsMessage newsMessage) {
@@ -192,7 +192,7 @@ public class MessageUtil {
 	 * @Description: 图片消息对象转换成xml
 	 * @param @param imageMessage
 	 * @param @return
-	 * @author dapengniao
+	 * @author zhur
 	 * @date 2016年3月9日 上午9:25:51
 	 */
 	public static String imageMessageToXml(ImageMessage imageMessage) {
@@ -204,7 +204,7 @@ public class MessageUtil {
 	 * @Description: 语音消息对象转换成xml
 	 * @param @param voiceMessage
 	 * @param @return
-	 * @author dapengniao
+	 * @author zhur
 	 * @date 2016年3月9日 上午9:27:26
 	 */
 	public static String voiceMessageToXml(VoiceMessage voiceMessage) {
@@ -216,7 +216,7 @@ public class MessageUtil {
 	 * @Description: 视频消息对象转换成xml
 	 * @param @param videoMessage
 	 * @param @return
-	 * @author dapengniao
+	 * @author zhur
 	 * @date 2016年3月9日 上午9:31:09
 	 */
 	public static String videoMessageToXml(VideoMessage videoMessage) {
@@ -228,7 +228,7 @@ public class MessageUtil {
 	 * @Description: 音乐消息对象转换成xml
 	 * @param @param musicMessage
 	 * @param @return
-	 * @author dapengniao
+	 * @author zhur
 	 * @date 2016年3月8日 下午4:13:36
 	 */
 	public static String musicMessageToXml(MusicMessage musicMessage) {

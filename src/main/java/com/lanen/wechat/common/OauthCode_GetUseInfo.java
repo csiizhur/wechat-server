@@ -2,7 +2,6 @@ package com.lanen.wechat.common;
 
 import java.util.HashMap;
 
-import net.sf.json.JSON;
 import net.sf.json.JSONObject;
 
 import com.lanen.web.util.GlobalConstants;

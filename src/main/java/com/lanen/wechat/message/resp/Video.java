@@ -3,7 +3,7 @@ package com.lanen.wechat.message.resp;
 /**
  * ClassName: Video
  * @Description: 视频消息体
- * @author dapengniao
+ * @author zhur
  * @date 2016年3月8日 下午6:05:45
  */
 public class Video {

@@ -3,7 +3,7 @@ package com.lanen.wechat.message.resp;
 /**
  * ClassName: BaseMessage
  * @Description: 返回消息体-基本消息
- * @author dapengniao
+ * @author zhur
  * @date 2016年3月7日 下午3:16:57
  */
 public class BaseMessage {  

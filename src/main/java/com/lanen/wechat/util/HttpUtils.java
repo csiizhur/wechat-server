@@ -33,7 +33,7 @@ import org.apache.http.util.EntityUtils;
  * ClassName: HttpUtils
  * 
  * @Description: http请求工具类
- * @author dapengniao
+ * @author zhur
  * @date 2016年3月10日 下午3:57:14
  */
 @SuppressWarnings("deprecation")

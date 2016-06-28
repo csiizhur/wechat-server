@@ -26,7 +26,7 @@ import net.sf.json.JSONObject;
  * ClassName: EventDispatcher
  * 
  * @Description: 事件消息业务分发器
- * @author dapengniao
+ * @author zhur
  * @date 2016年3月7日 下午4:04:41
  */
 @Service

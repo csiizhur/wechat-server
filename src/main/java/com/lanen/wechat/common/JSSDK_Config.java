@@ -17,11 +17,12 @@ import com.lanen.web.util.GlobalConstants;
 public class JSSDK_Config {
 
 	/**
-	 * @Description: 前端jssdk页面配置需要用到的配置参数
-	 * @param @return hashmap {appid,timestamp,nonceStr,signature}
-	 * @param @throws Exception   
-	 * @author dapengniao
-	 * @date 2016年3月19日 下午3:53:23
+	 * 前端jssdk页面配置需要用到的配置参数
+	 * @param url
+	 * @return hashmap {appid,timestamp,nonceStr,signature}
+	 * @throws Exception
+	 * @author Administrator-zhur
+	 * @date 2016年6月28日 下午5:00:19
 	 */
 	public static HashMap<String, String> jsSDK_Sign(String url) throws Exception {
 		String nonce_str = create_nonce_str();

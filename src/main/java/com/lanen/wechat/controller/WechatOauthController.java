@@ -20,7 +20,7 @@ import com.lanen.wechat.service.MemberService;
 
 /**
  * 
- * @Description
+ * @Description 网页授权
  * @ClassName WechatOauthController.java
  * @author Administrator
  * @date 2016年6月15日上午10:35:15

@@ -5,10 +5,11 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 
 /**
- * ClassName: InterfaceUrlIntiServlet
- * @Description: 项目启动初始化servlet
- * @author dapengniao
- * @date 2016年3月10日 下午4:08:43
+ * 
+ * @Description 项目启动初始化servlet
+ * @ClassName InterfaceUrlIntiServlet.java
+ * @author Administrator-zhur
+ * @date 2016年5月28日下午5:58:14
  */
 public class InterfaceUrlIntiServlet extends HttpServlet {
 

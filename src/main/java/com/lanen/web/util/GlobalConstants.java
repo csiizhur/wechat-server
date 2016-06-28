@@ -2,18 +2,17 @@ package com.lanen.web.util;
 
 import java.util.Properties;
 
+/**
+ * 
+ * @Description 获取全局变量
+ * @ClassName GlobalConstants.java
+ * @author Administrator-zhur
+ * @date 2016年5月28日下午5:02:55
+ */
 public class GlobalConstants {
 
 	public static Properties interfaceUrlProperties;
 
-/**
- * 
- * @Description: TODO
- * @param @param key
- * @param @return   
- * @author dapengniao
- * @date 2015年10月13日 下午4:59:14
- */
 	public static String getInterfaceUrl(String key) {
 		return (String) interfaceUrlProperties.get(key);
 	}

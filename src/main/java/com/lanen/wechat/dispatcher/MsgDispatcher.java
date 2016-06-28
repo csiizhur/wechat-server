@@ -19,7 +19,7 @@ import com.lanen.wechat.util.MessageUtil;
 /**
  * ClassName: MsgDispatcher
  * @Description: 消息业务处理分发器
- * @author dapengniao
+ * @author zhur
  * @date 2016年3月7日 下午4:04:21
  */
 @Service

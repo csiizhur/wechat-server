@@ -3,7 +3,7 @@ package com.lanen.wechat.message.req;
 /**
  * ClassName: VoiceMessage
  * @Description: 语音消息
- * @author dapengniao
+ * @author zhur
  * @date 2016年3月7日 下午3:07:10
  */
 public class VoiceMessage extends BaseMessage {  

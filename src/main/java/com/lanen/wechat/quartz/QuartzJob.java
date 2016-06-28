@@ -9,7 +9,7 @@ public class QuartzJob{
 	/**
 	 * @Description: 任务执行获取token
 	 * @param    
-	 * @author dapengniao
+	 * @author zhur
 	 * @date 2016年3月10日 下午4:34:26
 	 */
 	public void workForToken() {

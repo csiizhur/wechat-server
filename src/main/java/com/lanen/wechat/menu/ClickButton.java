@@ -3,7 +3,7 @@ package com.lanen.wechat.menu;
 /**
  * ClassName: ClickButton
  * @Description: 点击型菜单事件
- * @author dapengniao
+ * @author zhur
  * @date 2016年3月14日 下午5:31:50
  */
 public class ClickButton {

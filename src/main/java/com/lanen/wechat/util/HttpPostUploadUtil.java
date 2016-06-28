@@ -19,7 +19,7 @@ import com.lanen.web.util.GlobalConstants;
 /**
  * ClassName: HttpPostUploadUtil
  * @Description: 多媒体上传
- * @author dapengniao
+ * @author zhur
  * @date 2016年3月14日 上午11:56:55
  */
 public class HttpPostUploadUtil {  

@@ -3,7 +3,7 @@ package com.lanen.wechat.message.req;
 /**
  * ClassName: LinkMessage
  * @Description: 连接消息
- * @author dapengniao
+ * @author zhur
  * @date 2016年3月7日 下午3:05:48
  */
 public class LinkMessage extends BaseMessage {

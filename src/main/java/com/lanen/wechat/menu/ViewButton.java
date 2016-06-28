@@ -3,7 +3,7 @@ package com.lanen.wechat.menu;
 /**
  * ClassName: ViewButton
  * @Description: 视图型菜单事件
- * @author dapengniao
+ * @author zhur
  * @date 2016年3月14日 下午5:31:38
  */
 public class ViewButton {

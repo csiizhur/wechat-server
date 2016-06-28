@@ -3,7 +3,7 @@ package com.lanen.wechat.message.req;
 /**
  * ClassName: LocationMessage
  * @Description: 地理位置消息
- * @author dapengniao
+ * @author zhur
  * @date 2016年3月7日 下午3:06:10
  */
 public class LocationMessage extends BaseMessage {  

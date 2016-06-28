@@ -3,7 +3,7 @@ package com.lanen.wechat.message.req;
 /**
  * ClassName: TextMessage
  * @Description: 文本消息
- * @author dapengniao
+ * @author zhur
  * @date 2016年3月7日 下午3:06:40
  */
 public class TextMessage extends BaseMessage {  

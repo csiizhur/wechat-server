@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * ClassName: NewsMessage
  * @Description: 多图文消息
- * @author dapengniao
+ * @author zhur
  * @date 2016年3月7日 下午3:52:18
  */
 public class NewsMessage extends BaseMessage {  

@@ -3,7 +3,7 @@ package com.lanen.wechat.message.resp;
 /**
  * ClassName: Article
  * @Description: 图文消息体
- * @author dapengniao
+ * @author zhur
  * @date 2016年3月7日 下午3:16:28
  */
 public class Article {  

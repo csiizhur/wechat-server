@@ -8,10 +8,11 @@ import java.util.Properties;
 import com.lanen.web.util.GlobalConstants;
 
 /**
- * ClassName: InterfaceUrlInti
- * @Description: 项目启动初始化方法
- * @author dapengniao
- * @date 2016年3月10日 下午4:08:21
+ * 
+ * @Description 项目启动初始化方法
+ * @ClassName InterfaceUrlInti.java
+ * @author Administrator-zhur
+ * @date 2016年5月28日下午4:57:43
  */
 public class InterfaceUrlInti {
 

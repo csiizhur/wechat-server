@@ -3,7 +3,7 @@ package com.lanen.wechat.message.req;
 /**
  * ClassName: BaseMessage
  * @Description: 微信请求消息基本类
- * @author dapengniao
+ * @author zhur
  * @date 2016年3月7日 下午3:03:59
  */
 public class BaseMessage {

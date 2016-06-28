@@ -3,7 +3,7 @@ package com.lanen.wechat.message.resp;
 /**
  * ClassName: Music
  * @Description: 音乐消息消息体
- * @author dapengniao
+ * @author zhur
  * @date 2016年3月7日 下午3:54:00
  */
 public class Music {  

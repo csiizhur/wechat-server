@@ -15,7 +15,7 @@ import com.lanen.wechat.service.ServiceItemService;
  * 
  * @Description 
  * @ClassName ServiceItemController.java
- * @author Administrator
+ * @author Administrator-zhur
  * @date 2016年6月15日下午3:45:16
  */
 @Controller

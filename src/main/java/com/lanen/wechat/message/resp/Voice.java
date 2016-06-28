@@ -3,7 +3,7 @@ package com.lanen.wechat.message.resp;
 /**
  * ClassName: Voice
  * @Description: 语音消息体
- * @author dapengniao
+ * @author zhur
  * @date 2016年3月8日 下午6:02:29
  */
 public class Voice {

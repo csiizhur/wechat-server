@@ -11,4 +11,6 @@ public interface MemberMapper {
 	int updateMemberInfo(Member m);
 	
 	int insertMember(Member m);
+	
+	Member queryMemberInfoByOpenId(String openId);
 }

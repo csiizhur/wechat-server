@@ -25,9 +25,9 @@
 		</property>
 		<!-- cron表达式 -->
 		<property name="cronExpression">
-			<value>0 0/2 * * * ?</value>
+			<!-- <value>0 0/2 * * * ?</value> -->
 			<!-- 两个小时获取一次access_token -->
-			<!-- <value>0 0 0/2 * * ?</value> -->
+			<value>0 0 0/2 * * ?</value>
 		</property>
 	</bean>
 

@@ -10,20 +10,21 @@ import com.lanen.wechat.util.HttpUtils;
 import net.sf.json.JSONObject;
 
 /**
- * ClassName: GetUseInfo
- * @Description: 获取微信用户信息
- * @author dapengniao
- * @date 2016年3月18日 下午2:00:52
+ * 
+ * @Description 获取微信用户信息
+ * @ClassName GetUseInfo.java
+ * @author Administrator
+ * @date 2016年6月28日下午4:25:51
  */
 @Service
 public class GetUseInfo {
 	/**
-	 * @Description: 通过openid获取用户微信信息
-	 * @param @param openid
-	 * @param @return
-	 * @param @throws Exception   
-	 * @author dapengniao
-	 * @date 2016年3月18日 下午2:01:30
+	 * 通过openid获取微信用户信息
+	 * @param openid
+	 * @return
+	 * @throws Exception
+	 * @author Administrator-zhur
+	 * @date 2016年6月28日 下午4:30:17
 	 */
 	public static HashMap<String, String> Openid_userinfo(String openid)
 			throws Exception {

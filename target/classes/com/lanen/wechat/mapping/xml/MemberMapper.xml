@@ -15,7 +15,7 @@
 		<result column="address" property="address"/>
 	</resultMap>
 
-	<select id="queryMember" resultMap="memberMap">
+	<select id="queryMemberInfoByOpenId" resultMap="memberMap">
 		select * from weixin_openuser_member where open_id=#{openId}
 	</select>
 	

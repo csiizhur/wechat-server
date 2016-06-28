@@ -7,12 +7,12 @@ import java.util.UUID;
 
 import com.lanen.web.util.GlobalConstants;
 
-
 /**
- * ClassName: JSSDK_Config
- * @Description: 用户微信前端页面的jssdk配置使用
- * @author dapengniao
- * @date 2016年3月19日 下午3:53:23
+ * 
+ * @Description 用户微信前端页面的jssdk配置使用
+ * @ClassName JSSDK_Config.java
+ * @author Administrator-zhur
+ * @date 2016年6月28日下午4:31:53
  */
 public class JSSDK_Config {
 

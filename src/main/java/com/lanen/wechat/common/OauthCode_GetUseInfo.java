@@ -49,7 +49,8 @@ public class OauthCode_GetUseInfo {
 		
 		
 		openid=JSONObject.fromObject(tokenStr).getString("openid");
-		
+		//refresh_token有效期30天
+		String refresh_token=JSONObject.fromObject(tokenStr).getString("refresh_token");
 		//unionid=JSONObject.fromObject(tokenStr).getString("unionid");
 		
 		params.clear();

@@ -32,59 +32,6 @@
 			</header>
 		</div>
 
-		<div class="pet_more_list">
-			<div class="pet_more_list_block">
-				<div class="iconfont pet_more_close">×</div>
-				<div class="pet_more_list_block">
-					<div class="pet_more_list_block_name">
-						<div class="pet_more_list_block_name_title">阅读 Read</div>
-						<a class="pet_more_list_block_line"> <i
-							class="iconfont pet_nav_xinxianshi pet_more_list_block_line_ico">&#xe61e;</i>
-							<div class="pet_more_list_block_line_font">新鲜事</div>
-						</a> <a class="pet_more_list_block_line"> <i
-							class="iconfont pet_nav_zhangzhishi pet_more_list_block_line_ico">&#xe607;</i>
-							<div class="pet_more_list_block_line_font">趣闻</div>
-						</a> <a class="pet_more_list_block_line"> <i
-							class="iconfont pet_nav_kantuya pet_more_list_block_line_ico">&#xe62c;</i>
-							<div class="pet_more_list_block_line_font">阅读</div>
-						</a> <a class="pet_more_list_block_line"> <i
-							class="iconfont pet_nav_mengzhuanti pet_more_list_block_line_ico">&#xe622;</i>
-							<div class="pet_more_list_block_line_font">专题</div>
-						</a> <a class="pet_more_list_block_line"> <i
-							class="iconfont pet_nav_bk pet_more_list_block_line_ico">&#xe629;</i>
-							<div class="pet_more_list_block_line_font">订阅</div>
-						</a> <a class="pet_more_list_block_line"> <i
-							class="iconfont pet_nav_wd pet_more_list_block_line_ico">&#xe602;</i>
-							<div class="pet_more_list_block_line_font">专栏</div>
-						</a>
-						<div
-							class="pet_more_list_block_name_title pet_more_list_block_line_height">服务
-							Service</div>
-						<a class="pet_more_list_block_line"> <i
-							class="iconfont pet_nav_xinxianshi pet_more_list_block_line_ico">&#xe61e;</i>
-							<div class="pet_more_list_block_line_font">新鲜事</div>
-						</a> <a class="pet_more_list_block_line"> <i
-							class="iconfont pet_nav_zhangzhishi pet_more_list_block_line_ico">&#xe607;</i>
-							<div class="pet_more_list_block_line_font">趣闻</div>
-						</a> <a class="pet_more_list_block_line"> <i
-							class="iconfont pet_nav_kantuya pet_more_list_block_line_ico">&#xe62c;</i>
-							<div class="pet_more_list_block_line_font">阅读</div>
-						</a> <a class="pet_more_list_block_line"> <i
-							class="iconfont pet_nav_mengzhuanti pet_more_list_block_line_ico">&#xe622;</i>
-							<div class="pet_more_list_block_line_font">专题</div>
-						</a> <a class="pet_more_list_block_line"> <i
-							class="iconfont pet_nav_bk pet_more_list_block_line_ico">&#xe629;</i>
-							<div class="pet_more_list_block_line_font">订阅</div>
-						</a> <a class="pet_more_list_block_line"> <i
-							class="iconfont pet_nav_wd pet_more_list_block_line_ico">&#xe602;</i>
-							<div class="pet_more_list_block_line_font">专栏</div>
-						</a>
-					</div>
-				</div>
-
-			</div>
-		</div>
-
 		<div class="pet_content pet_content_list">
 			<div class="pet_kjdt">
 
@@ -96,7 +43,7 @@
 							</div>
 							<div class="pet_kjdt_user_r">
 								<div class="pet_kjdt_user_time">
-									<i class="iconfont">&#xe617; </i> 19:15
+									<i class="iconfont">&#xe617; </i> new Date();
 								</div>
 								<div class="pet_kjdt_user_r_title">公司介绍</div>
 								<div class="pet_kjdt_user_r_info">苏州</div>
@@ -112,8 +59,8 @@
 
 
 								<img
-									src="${pageContext.request.contextPath}/${company.companyPic}"
-									data-rel="img/zk04.png" alt="春天的花开秋天的风以及冬天的落阳" />
+									src="${company.companyPic}"
+									data-rel="img/zk04.png" alt="" />
 
 
 							</figure>

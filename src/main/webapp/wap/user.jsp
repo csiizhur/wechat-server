@@ -73,12 +73,12 @@
 
 	<div class="weui_cells weui_cells_access">
 		<a class="weui_cell"
-			href="${pageContext.request.contextPath}/wap/honor.html#/cell">
+			href="${pageContext.request.contextPath}/oauth/user/info.do?openId=${openid}">
 			<div class="weui_cell_hd">
 				<i class="iconfont-alibaba">&#xe604;</i>
 			</div>
 			<div class="weui_cell_bd weui_cell_primary">
-				<p>会员资料</p>
+				<p>资料完善</p>
 			</div>
 			<div class="weui_cell_ft">说明文字</div>
 		</a> <a class="weui_cell" href="${pageContext.request.contextPath}/oauth/user/info.do?openId=${openid}">

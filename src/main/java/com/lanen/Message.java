@@ -3,7 +3,7 @@ package com.lanen;
 /**
  * ClassName: Message
  * @Description: 用于消息回复
- * @author dapengniao
+ * @author zhur
  * @date 2016年4月8日 上午11:44:11
  */
 public class Message {

@@ -3,7 +3,7 @@ package com.lanen;
 /**
  * ClassName: Code
  * @Description: 服务端错误代码
- * @author dapengniao
+ * @author zhur
  * @date 2016年4月8日 上午11:43:49
  */
 public class Code {

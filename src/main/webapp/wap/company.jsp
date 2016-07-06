@@ -14,7 +14,7 @@
 	href="${pageContext.request.contextPath}/wap/css/amazeui.min.css">
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/wap/css/wap.css">
-<title>内容页列表页</title>
+<title>Info</title>
 </head>
 <body style="background: #ececec">
 	<div class="pet_mian">
@@ -39,11 +39,11 @@
 					<div class="pet_kjdt_block">
 						<div class="pet_kjdt_user">
 							<div class="pet_kjdt_user_l">
-								<img src="../img/logo.png" alt="">
+								<img src="${company.companyPic}" alt="">
 							</div>
 							<div class="pet_kjdt_user_r">
 								<div class="pet_kjdt_user_time">
-									<i class="iconfont">&#xe617; </i> new Date();
+									<i class="iconfont">&#xe617; </i> 17:32
 								</div>
 								<div class="pet_kjdt_user_r_title">公司介绍</div>
 								<div class="pet_kjdt_user_r_info">苏州</div>
@@ -51,24 +51,7 @@
 
 						</div>
 						<div class="pet_kjdt_user_r_font">${company.companyInfo}</div>
-						<div class="pet_kjdt_user_r_font_img">
-							<figure data-am-widget="figure"
-								class="am am-figure am-figure-default "
-								data-am-figure="{  pureview: 'true' }">
-
-
-
-								<img
-									src="${company.companyPic}"
-									data-rel="img/zk04.png" alt="" />
-
-
-							</figure>
-							<div class="pet_kjdt_user_r_like">
-								<i class="am-icon-heart"></i> Super invincible、V.NPCat 等93人喜欢
-							</div>
-
-						</div>
+						
 					</div>
 
 				</div>

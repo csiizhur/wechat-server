@@ -14,11 +14,11 @@
 		<result column="title" property="title"/>
 		<result column="content" property="content"/>
 		<result column="pic" property="pic"/>
-		<result column="is_show" property="isShow"/>
+		<result column="is_del" property="isDel"/>
 		
 	</resultMap>
 
 	<select id="getHotArticles" resultMap="articleMap">
-		select * from weixin_hot_article
+		select * from weixin_hot_article where is_del!=1
 	</select>
 </mapper>

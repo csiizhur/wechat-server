@@ -23,8 +23,10 @@ public class ServiceItem {
 	
 	private int createUser;
 	
-	private int isShow;
+	private int isDel;
 
+	private int parentId;
+	
 	public Integer getId() {
 		return id;
 	}
@@ -73,12 +75,20 @@ public class ServiceItem {
 		this.createUser = createUser;
 	}
 
-	public int getIsShow() {
-		return isShow;
+	public int getIsDel() {
+		return isDel;
 	}
 
-	public void setIsShow(int isShow) {
-		this.isShow = isShow;
+	public void setIsDel(int isDel) {
+		this.isDel = isDel;
+	}
+
+	public int getParentId() {
+		return parentId;
+	}
+
+	public void setParentId(int parentId) {
+		this.parentId = parentId;
 	}
 
 

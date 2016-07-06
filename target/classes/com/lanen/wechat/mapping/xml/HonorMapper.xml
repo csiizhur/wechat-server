@@ -17,7 +17,7 @@
 	</resultMap>
 
 	<select id="listHonor" resultMap="honorMap">
-		select * from weixin_honor
+		select * from weixin_honor where is_del!=1
 	</select>
 	
 </mapper>

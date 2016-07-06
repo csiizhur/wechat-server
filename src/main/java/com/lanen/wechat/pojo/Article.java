@@ -23,7 +23,7 @@ public class Article {
 	
 	private String pic;
 	
-	private int isShow;
+	private int isDel;
 
 	public Integer getId() {
 		return id;
@@ -81,12 +81,12 @@ public class Article {
 		this.pic = pic;
 	}
 
-	public int getIsShow() {
-		return isShow;
+	public int getIsDel() {
+		return isDel;
 	}
 
-	public void setIsShow(int isShow) {
-		this.isShow = isShow;
+	public void setIsDel(int isDel) {
+		this.isDel = isDel;
 	}
 
 	

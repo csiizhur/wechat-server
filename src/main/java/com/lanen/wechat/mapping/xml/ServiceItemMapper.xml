@@ -13,11 +13,12 @@
 		<result column="service_pic" property="servicePic"/>
 		<result column="create_user" property="createUser"/>
 		<result column="create_time" property="createTime"/>
-		<result column="is_show" property="isShow"/>
+		<result column="is_del" property="isDel"/>
+		<result column="parent_id" property="parentId"/>
 		
 	</resultMap>
 
 	<select id="getServiceItem" resultMap="serviceitemMap">
-		select * from weixin_service_item
+		select * from weixin_service_item where is_del!=1
 	</select>
 </mapper>

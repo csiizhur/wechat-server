@@ -18,6 +18,6 @@
 	</resultMap>
 
 	<select id="getCompanyInfo" resultMap="companyMap">
-		select * from weixin_company
+		select * from weixin_company where is_del!=1
 	</select>
 </mapper>

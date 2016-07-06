@@ -16,7 +16,7 @@
 	</resultMap>
 
 	<select id="queryByKeyword" resultMap="textmap">
-		select * from weixin_text where keyword=#{keyword}
+		select * from weixin_text where keyword=#{keyword} where is_del!=1
 	</select>
 
 </mapper>

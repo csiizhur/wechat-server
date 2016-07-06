@@ -140,7 +140,7 @@
         </div>
           <div class="am-u-sm-4 am-list-thumb">
             <a href="###" class="">
-              <img src="../../img/${article.pic}" class="pet_list_one_img" alt="我很囧，你保重....晒晒旅行中的那些囧！"/>
+              <img src="${article.pic}" class="pet_list_one_img" alt="我很囧，你保重....晒晒旅行中的那些囧！"/>
             </a>
           </div>
       </li>

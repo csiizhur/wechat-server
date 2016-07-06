@@ -10,7 +10,7 @@
   <meta name="description" content="" />
   <link rel="stylesheet" href="${pageContext.request.contextPath}/wap/css/amazeui.min.css">
   <link rel="stylesheet" href="${pageContext.request.contextPath}/wap/css/wap.css">
-  <title>服务项目列表页</title>
+  <title>Services</title>
 </head>
 <body style="background:#ececec">
   <div class="pet_mian" >
@@ -111,7 +111,7 @@
         </div>
           <div class="am-u-sm-4 am-list-thumb">
             <a href="###" class="">
-              <img src="${pageContext.request.contextPath}/${p.servicePic} " class="pet_list_one_img" alt=""/>
+              <img src="${p.servicePic}" class="pet_list_one_img" alt=""/>
             </a>
           </div>
       </li>

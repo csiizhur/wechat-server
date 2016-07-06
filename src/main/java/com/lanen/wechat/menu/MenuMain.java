@@ -15,7 +15,7 @@ import net.sf.json.JSONArray;
 
 public class MenuMain {
 
-	private static String token="8mAo6y2m6M8FJ5nVrId7_JrIDRAqW8_RXwYwu0dYiKdeAexKtkcMDlG7YUh2KAmzS7sCtSrnWRRJ2_6xHP0GHJBbmlwVYc3SUR7rdH6eDPmKa3otrVFhIoc8hPsDvyikRYRhAHAVCV";
+	private static String token="Hyt_PkhoqObqAEmPFTtij44iimYJ4-RQw8j_AQaVb3rHB_37R4_rjDO6dCSvOXcyTh1Keb5jkmIhUEB9SfIexa5VFiq6A34eJy5CCQ0vq54FKZfAFAINC";
 	public static void main(String[] args) {
 	
 		ClickButton cbt=new ClickButton();
@@ -67,7 +67,6 @@ public class MenuMain {
 		JSONArray sub_button=new JSONArray();
 		
 		ViewButton vbt1=new ViewButton();
-		//vbt1.setUrl("http://121.42.8.57:8080/wechat01/static/iscroll.html");
 		vbt1.setUrl("http://20572ec.nat123.net/company/list.do");
 		vbt1.setName("公司介绍");
 		vbt1.setType("view");
@@ -83,7 +82,7 @@ public class MenuMain {
 		vbt3.setType("view");
 		
 		ViewButton vbt4=new ViewButton();
-		vbt4.setUrl("http://20572ec.nat123.net/static/index.html");
+		vbt4.setUrl("http://20572ec.nat123.net/serviceitem/list.do");
 		vbt4.setName("服务项目");
 		vbt4.setType("view");
 		
